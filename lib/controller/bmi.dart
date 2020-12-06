@@ -27,10 +27,6 @@ class Calculation {
   static double calculateBmiScore(double _weight, double _height) {
     return _weight / pow(_height / 100, 2);
   }
-
-  static double calsculateBmiScore(double _weight, double _height) {
-    return _weight / pow(_height / 100, 2);
-  }
 }
 
 class Information {
