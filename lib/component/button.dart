@@ -9,7 +9,7 @@ class ActionButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Color(0xFFEA4566),
+      color: const Color(0xFFEA4566),
       child: FlatButton(
         onPressed: onPressed,
         child: Text(

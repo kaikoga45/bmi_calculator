@@ -60,14 +60,17 @@ class ResultScreen extends StatelessWidget {
                           fontSize: 25.0,
                         ),
                       ),
-                      Text(
-                        '${_bmiScore.toStringAsFixed(1)}',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 90.0,
+                      FittedBox(
+                        fit: BoxFit.fill,
+                        child: Text(
+                          '${_bmiScore.toStringAsFixed(1)}',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 90.0,
+                          ),
+                          textAlign: TextAlign.center,
                         ),
-                        textAlign: TextAlign.center,
                       ),
                       Container(
                         child: Column(

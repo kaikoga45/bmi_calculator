@@ -48,7 +48,7 @@ class InfoScreen extends StatelessWidget {
             ),
             SizedBox(height: 40.0),
             Text(
-              'Versi 1.0.0',
+              'DEVELOPER: \nKai Koga',
               style: TextStyle(color: Colors.white, fontSize: 13.0),
               textAlign: TextAlign.center,
             ),
